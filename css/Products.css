@@ -1,0 +1,113 @@
+
+
+.search{
+    flex: 2;
+    margin: 10px;
+}
+
+.search-input{
+    display: block;
+    font-size: larger;
+    margin: auto;
+    padding: auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+h1{
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin: 10px;
+}
+
+hr{
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: transform 0.4s;
+}
+
+.handicraft{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+h1{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.species{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Masks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.product{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+ 
+    
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+label{
+    display: flex;
+    align-items: start;
+}
+
+p{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.copyright{
+    margin-top: 3vh;
+}
+
+.product:hover{
+    transform: scale(1.05);
+}
+

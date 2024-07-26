@@ -1,0 +1,77 @@
+img{
+    margin-left: 10px;
+    width: 250px;
+}
+
+#error{
+    color: red;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 25px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+input,select{
+	margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+	font-family: inherit;
+	font-size: small;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+@media (max-width: 600px)  {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        vertical-align: middle;
+        width: 300px;
+    }
+    button{
+        width: 25%;
+    }
+}

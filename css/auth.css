@@ -1,0 +1,57 @@
+body{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    align-items: center;
+}
+
+.auth{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 20px;
+    color: teal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    width: 200px;
+    gap: 20px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}
+
+span{
+    font-size: 12px;
+    text-align: center;
+}
+    

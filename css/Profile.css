@@ -1,0 +1,46 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+input{
+	margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid gray;
+	font-family: inherit;
+	font-size: small;
+}
+
+
+button{
+	width: 100px;
+	padding: 10px;
+	margin: auto;
+	padding: auto;
+    border: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+

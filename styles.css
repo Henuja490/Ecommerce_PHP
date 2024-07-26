@@ -1,0 +1,319 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: white ;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    
+}
+  
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+nav li{
+    height: 50px;
+}
+  
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+  
+nav a:hover{
+    background-color: #f0f0f0;
+}
+  
+nav li:first-child{
+    margin-right: auto;
+    
+}
+
+.sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 1;
+    background-color:  white;
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+  
+.sidebar li{
+    width: 100%;
+}
+  
+.sidebar a{
+    width: 100%;
+}
+  
+.menu-button{
+    display: none;
+}
+
+#lblCartCount {
+    font-size: 15px;
+    background: red;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    border-radius: 50px;
+    margin-left: -10px;
+    margin-top: -15px; 
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+h3{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.cat{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.cat:hover{
+    transform: scale(1.05);
+}
+
+.text-h2{
+    margin-top: 15px;
+    text-align: center;
+    color: teal;
+}
+
+
+.footer{
+   
+    background-color: grey;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    padding: 5px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+
+footer .logo{
+    margin-bottom: 30px;
+    
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 10px;
+
+}
+
+footer .follow i{
+    color: white;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install img {
+    border: 1px solid #000; 
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color:#ffa424;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media(max-width: 800px){
+    
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .cat{
+        margin-bottom: 35px;
+        
+    }
+    .prev, .next,.text {
+        font-size: 11px
+    }
+
+}
+
+@media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+}
